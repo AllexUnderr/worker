@@ -8,14 +8,12 @@
 ---
 
 ## Структура проекта
+```
 worker_project/
-
 ├── worker.py # Определение класса WORKER и WorkerManager
-
 ├── main.py # Основная программа: ввод данных, поиск по стажу
-
 └── README.md # Документация (этот файл)
-
+```
 ---
 
 ## Требования
@@ -64,3 +62,4 @@ add_worker(worker: WORKER) - Добавление работника в спис
 find_by_experience(min_experience: int) -> List[WORKER] - Поиск работников со стажем > заданного значения
 
 display_all() - Вывод всех работников в консоль
+
